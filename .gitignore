@@ -1,0 +1,24 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# IntelliJ project settings
+.idea/
+
+# Generated Python environment files
+.python-version
+
+# Keep generated output and reports out of Git
+data/processed/
+
+# Keep local secrets and environment configuration out of Git
+.env
+.env.*
+!.env.example
+# IntelliJ module file
+*.iml
